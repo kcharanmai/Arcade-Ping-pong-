@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping-Pong</title>
+    <style>
+        body{
+            background-color:#c28787;
+        }
+        #pauseButton {
+          display: block;
+          width: 7vw; 
+          height: 5vh; 
+          margin: 10px auto;
+          background-color:beige;
+          color: black;
+          border: none;
+          border-radius: 20px;
+          cursor: pointer;
+          position: absolute; 
+          font-family:'Arcade Classic 2';
+          left: 40%;
+          bottom: 5vh;
+          font-size:1.5vw;
+        }
+        #resetButton {
+         width: 7vw;
+         height: 5vh; 
+         margin: 10px auto;
+         background-color:beige; /* Adjust the color as needed */
+         color: black;
+         border: none;
+         border-radius: 20px; /* Half of the height to make it oval-shaped */
+         cursor: pointer;
+         position: absolute;
+         font-family:'Arcade Classic 2';
+         font-size: 1.5vw;
+         left:55%;
+         bottom:5vh;
+        }
+       #canvas{
+            border:1px solid white;
+            position: absolute;
+            margin :auto;
+            top:0;
+            bottom:0;
+            left:25vw;
+            right:25vw;
+            width:50vw;
+            height:55vh;
+        }
+        h1{
+            font-family:'Arcade Classic 2';
+            color: beige;
+        }
+        @font-face {
+            font-family: 'Arcade Classic 2';
+            src: url('ARCADECLASSIC.TTF') format('truetype');
+        }
+        @media (min-width: 700px) and (max-width: 1000px){
+            #pauseButton{
+                font-size: 2.5vw;
+                width:9vw;
+                height:6vh;
+            }
+            #resetButton{
+                font-size:2.5vw ;
+                width:9vw;
+                height:6vh;
+            }
+            #canvas{
+                width:70vw;
+                height:60vh;
+                left:15vw;
+                right:15vw;
+            }
+        }
+        @media (min-width: 300px) and (max-width: 700px){
+            #pauseButton{
+                font-size: 4vw;
+                width:15vw;
+                height:6vh;
+                left:35%
+            }
+            #resetButton{
+                font-size:4vw ;
+                width:15vw;
+                height:6vh;
+                left:55%;
+            }
+            #canvas{
+                width:80vw;
+                height:65vh;
+                left:10vw;
+                right:10vw;
+            }
+        }
+    </style>    
+</head>
+<h1>Arcade Ping-Pong</h1>
+<body>
+    <button id="pauseButton">Pause</button>
+    <button id="resetButton">Reset</button>
+    <canvas id="canvas"></canvas>
+    <script src="script.js"></script> 
+</body>
+</html>
