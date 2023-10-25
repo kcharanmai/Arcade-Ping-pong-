@@ -14,4 +14,3 @@ A classic Pong game implemented in JavaScript and HTML.
 - Game over condition when a player reaches 20 points.
 - Attractive arcade-style graphics.
 - Sound effects for ball collisions and scoring.
-- You can play the game by visiting the following link: [https://arcadepingpong.netlify.app]
