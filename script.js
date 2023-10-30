@@ -23,7 +23,7 @@ const ball = {
 // User Paddle
 const user = {
     x : 0, // left side of canvas
-    y : (canva.height - 50)/2, // -100 the height of paddle
+    y : (canva.height - 20)/2, // -20 the height of paddle
     width : 5,
     height : 40,
     score : 0,
@@ -33,7 +33,7 @@ const user = {
 // COM Paddle
 const com = {
     x : canva.width - 5, // - width of paddle
-    y : (canva.height - 50)/2, // -50 the height of paddle
+    y : (canva.height - 20)/2, // -20 the height of paddle
     width : 5,
     height : 40,
     score : 0,
