@@ -11,6 +11,5 @@ A classic Pong game implemented in JavaScript and HTML.
 - The goal is to score points by getting the ball past your opponent's paddle.
 - Pause and resume functionality.
 - Reset game to start a new match.
-- Game over condition when a player reaches 20 points.
 - Attractive arcade-style graphics.
 - Sound effects for ball collisions and scoring.
